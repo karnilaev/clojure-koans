@@ -9,7 +9,7 @@
   (= [1] (vec '(1)))
 
   "Or from some elements"
-  (= [nil nil] (vector nil nil))
+  (= __ (vector nil nil))
 
   "But you can populate it with any number of elements at once"
   (= [1 __] (vec '(1 2)))
